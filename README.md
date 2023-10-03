@@ -9,3 +9,18 @@
 
 ### **Changing the Webpage:** ###
 ![Alt text](media/Webpage.png)
+
+## **Activity 4** ##
+
+### **Docker Commands:** ##
+`docker build -t python-docker .`
+![Alt text](media/DockerBuild.png)
+
+`docker run -d -p 5000:5000 python-docker`
+![Alt text](media/DockerRun.png)
+
+`docker ps -a`
+![Alt text](media/DockerShow.png)
+
+http://localhost:5000
+![Alt text](media/DockerWebpage.png)

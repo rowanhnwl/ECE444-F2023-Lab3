@@ -6,8 +6,10 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email
 
 from datetime import datetime
+import os
 
-app = Flask(__name__)
+template_dir = os.path.abspath('src/templates')
+app = Flask(__name__, template_folder=template_dir)
 
 app.config['SECRET_KEY'] = 'rowan'
 
