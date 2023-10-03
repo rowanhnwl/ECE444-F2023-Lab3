@@ -1,0 +1,6 @@
+# Ignore the venv directory
+venv/
+
+# Ignore pycache files
+__pycache__/
+*.py[cod]
