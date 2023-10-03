@@ -4,3 +4,8 @@
 
 ### **Docker Installation:** ###
 ![Alt text](media/DockerInstall.png)
+
+## **Activity 3** ##
+
+### **Changing the Webpage:** ###
+![Alt text](media/Webpage.png)
